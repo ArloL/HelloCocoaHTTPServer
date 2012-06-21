@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271EB8CD1593777D008413EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271EB8CC1593777D008413EA /* Cocoa.framework */; };
+		271EB8D71593777D008413EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 271EB8D51593777D008413EA /* InfoPlist.strings */; };
+		271EB8D91593777D008413EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 271EB8D81593777D008413EA /* main.m */; };
+		271EB8DD1593777D008413EA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 271EB8DB1593777D008413EA /* Credits.rtf */; };
+		271EB8E01593777D008413EA /* ASEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 271EB8DF1593777D008413EA /* ASEAppDelegate.m */; };
+		271EB8E31593777D008413EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271EB8E11593777D008413EA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271EB8C81593777D008413EA /* HelloCocoaHTTPServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoaHTTPServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		271EB8CC1593777D008413EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		271EB8CF1593777D008413EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		271EB8D01593777D008413EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		271EB8D11593777D008413EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		271EB8D41593777D008413EA /* HelloCocoaHTTPServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoaHTTPServer-Info.plist"; sourceTree = "<group>"; };
+		271EB8D61593777D008413EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		271EB8D81593777D008413EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		271EB8DA1593777D008413EA /* HelloCocoaHTTPServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCocoaHTTPServer-Prefix.pch"; sourceTree = "<group>"; };
+		271EB8DC1593777D008413EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		271EB8DE1593777D008413EA /* ASEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEAppDelegate.h; sourceTree = "<group>"; };
+		271EB8DF1593777D008413EA /* ASEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEAppDelegate.m; sourceTree = "<group>"; };
+		271EB8E21593777D008413EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271EB8C51593777D008413EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271EB8CD1593777D008413EA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271EB8BD1593777C008413EA = {
+			isa = PBXGroup;
+			children = (
+				271EB8D21593777D008413EA /* HelloCocoaHTTPServer */,
+				271EB8CB1593777D008413EA /* Frameworks */,
+				271EB8C91593777D008413EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		271EB8C91593777D008413EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271EB8C81593777D008413EA /* HelloCocoaHTTPServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271EB8CB1593777D008413EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				271EB8CC1593777D008413EA /* Cocoa.framework */,
+				271EB8CE1593777D008413EA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		271EB8CE1593777D008413EA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				271EB8CF1593777D008413EA /* AppKit.framework */,
+				271EB8D01593777D008413EA /* CoreData.framework */,
+				271EB8D11593777D008413EA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		271EB8D21593777D008413EA /* HelloCocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				271EB8DE1593777D008413EA /* ASEAppDelegate.h */,
+				271EB8DF1593777D008413EA /* ASEAppDelegate.m */,
+				271EB8E11593777D008413EA /* MainMenu.xib */,
+				271EB8D31593777D008413EA /* Supporting Files */,
+			);
+			path = HelloCocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		271EB8D31593777D008413EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				271EB8D41593777D008413EA /* HelloCocoaHTTPServer-Info.plist */,
+				271EB8D51593777D008413EA /* InfoPlist.strings */,
+				271EB8D81593777D008413EA /* main.m */,
+				271EB8DA1593777D008413EA /* HelloCocoaHTTPServer-Prefix.pch */,
+				271EB8DB1593777D008413EA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		271EB8C71593777D008413EA /* HelloCocoaHTTPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271EB8E61593777D008413EA /* Build configuration list for PBXNativeTarget "HelloCocoaHTTPServer" */;
+			buildPhases = (
+				271EB8C41593777D008413EA /* Sources */,
+				271EB8C51593777D008413EA /* Frameworks */,
+				271EB8C61593777D008413EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCocoaHTTPServer;
+			productName = HelloCocoaHTTPServer;
+			productReference = 271EB8C81593777D008413EA /* HelloCocoaHTTPServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271EB8BF1593777C008413EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ASE;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 271EB8C21593777C008413EA /* Build configuration list for PBXProject "HelloCocoaHTTPServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 271EB8BD1593777C008413EA;
+			productRefGroup = 271EB8C91593777D008413EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				271EB8C71593777D008413EA /* HelloCocoaHTTPServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		271EB8C61593777D008413EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271EB8D71593777D008413EA /* InfoPlist.strings in Resources */,
+				271EB8DD1593777D008413EA /* Credits.rtf in Resources */,
+				271EB8E31593777D008413EA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271EB8C41593777D008413EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271EB8D91593777D008413EA /* main.m in Sources */,
+				271EB8E01593777D008413EA /* ASEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		271EB8D51593777D008413EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271EB8D61593777D008413EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		271EB8DB1593777D008413EA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271EB8DC1593777D008413EA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		271EB8E11593777D008413EA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271EB8E21593777D008413EA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		271EB8E41593777D008413EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		271EB8E51593777D008413EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		271EB8E71593777D008413EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoaHTTPServer/HelloCocoaHTTPServer-Prefix.pch";
+				INFOPLIST_FILE = "HelloCocoaHTTPServer/HelloCocoaHTTPServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		271EB8E81593777D008413EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoaHTTPServer/HelloCocoaHTTPServer-Prefix.pch";
+				INFOPLIST_FILE = "HelloCocoaHTTPServer/HelloCocoaHTTPServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271EB8C21593777C008413EA /* Build configuration list for PBXProject "HelloCocoaHTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271EB8E41593777D008413EA /* Debug */,
+				271EB8E51593777D008413EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271EB8E61593777D008413EA /* Build configuration list for PBXNativeTarget "HelloCocoaHTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271EB8E71593777D008413EA /* Debug */,
+				271EB8E81593777D008413EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271EB8BF1593777C008413EA /* Project object */;
+}
