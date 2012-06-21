@@ -1,20 +1,39 @@
-//
-//  ASEAppDelegate.m
-//  HelloCocoaHTTPServer
-//
-//  Created by O'Keeffe Arlo Louis on 2012-06-21.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #import "ASEAppDelegate.h"
+
+#import "ASEHelloServer.h"
+
+@interface ASEAppDelegate ()
+
+@property (nonatomic, strong) ASEHelloServer * helloServer;
+
+@end
 
 @implementation ASEAppDelegate
 
-@synthesize window = _window;
+@synthesize window;
+
+@synthesize helloServer;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    helloServer = [ASEHelloServer new];
+}
+
+-(void)applicationDidBecomeActive:(NSNotification *)notification
+{
+    if (!helloServer) {
+        helloServer = [ASEHelloServer new];
+    }
+}
+
+-(void)applicationWillTerminate:(NSNotification *)notification
+{
+    helloServer = nil;
+}
+
+-(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+{
+    return YES;
 }
 
 @end
